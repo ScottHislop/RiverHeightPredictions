@@ -1,4 +1,4 @@
-name: Daily CSV Update
+name: Hourly River Data CSV Update
 
 on:
   schedule:
