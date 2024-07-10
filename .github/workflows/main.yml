@@ -2,7 +2,7 @@ name: Hourly River Data CSV Update
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every day at midnight (UTC)
+    - cron: '0 7 * * *' # Runs every day at midnight (UTC)
   workflow_dispatch:
 
 jobs:
